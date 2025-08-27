@@ -24,7 +24,7 @@
     "firebase": "^9.23.0",
     "zustand": "^4.4.0",
     "expo-constants": "~14.4.0",
-    "shared": "workspace:*"
+    "shared": "*"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

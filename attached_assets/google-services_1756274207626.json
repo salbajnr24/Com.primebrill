@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1096186932229",
+    "firebase_url": "https://brillprime-app-309ed-default-rtdb.firebaseio.com",
+    "project_id": "brillprime-app-309ed",
+    "storage_bucket": "brillprime-app-309ed.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1096186932229:android:d8fd9e2ca40b1ce222406c",
+        "android_client_info": {
+          "package_name": "Com.mobile.brillprime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1096186932229-7jho86h607mf744gi341gndiobgtojk1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGO6RNnAtvVgp3tnHAWAQG9tnL1_ZS20o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1096186932229-7jho86h607mf744gi341gndiobgtojk1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1096186932229-f66m3i4q6gr6q3f5vjnfg9d4derkdp0d.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "Com.mobile.Brillprime"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

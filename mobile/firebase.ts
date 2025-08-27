@@ -11,7 +11,7 @@ const firebaseConfig = {
   projectId: "brillprime-app-309ed",
   storageBucket: "brillprime-app-309ed.firebasestorage.app",
   messagingSenderId: "1096186932229",
-  appId: "1:1096186932229:android:d8fd9e2ca40b1ce222406c",
+  appId: "1:1096186932229:ios:d0f117b02b9eaab722406c",
 };
 
 const app = initializeApp(firebaseConfig);

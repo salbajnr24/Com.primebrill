@@ -4,11 +4,13 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: process.env.VITE_FIREBASE_API_KEY || process.env.FIREBASE_API_KEY,
-  authDomain: `${process.env.VITE_FIREBASE_PROJECT_ID || process.env.FIREBASE_PROJECT_ID}.firebaseapp.com`,
-  projectId: process.env.VITE_FIREBASE_PROJECT_ID || process.env.FIREBASE_PROJECT_ID,
-  storageBucket: `${process.env.VITE_FIREBASE_PROJECT_ID || process.env.FIREBASE_PROJECT_ID}.firebasestorage.app`,
-  appId: process.env.VITE_FIREBASE_APP_ID || process.env.FIREBASE_APP_ID,
+  apiKey: "AIzaSyArFKtRINXm4jze9wh4A5RhFmRFV8HH7ZE",
+  authDomain: "brillprime-app-309ed.firebaseapp.com",
+  databaseURL: "https://brillprime-app-309ed-default-rtdb.firebaseio.com",
+  projectId: "brillprime-app-309ed",
+  storageBucket: "brillprime-app-309ed.firebasestorage.app",
+  messagingSenderId: "1096186932229",
+  appId: "1:1096186932229:web:046a765e077ebbcc22406c",
 };
 
 // Initialize Firebase

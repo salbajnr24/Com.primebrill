@@ -1,0 +1,19 @@
+{
+  "name": "firebase-services",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "config.ts",
+  "scripts": {
+    "type-check": "tsc --noEmit",
+    "build": "tsc",
+    "clean": "rm -rf dist .turbo"
+  },
+  "dependencies": {
+    "firebase": "^9.23.0",
+    "shared": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}

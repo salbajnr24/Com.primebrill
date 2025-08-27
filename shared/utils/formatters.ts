@@ -24,10 +24,6 @@ export function formatDateShort(date: Date | string): string {
   }).format(dateObj);
 }
 
-export function formatNumber(number: number): string {
-  return new Intl.NumberFormat('en-US').format(number);
-}
-
 export function truncateText(text: string, maxLength: number): string {
   if (text.length <= maxLength) return text;
   return text.substring(0, maxLength) + '...';

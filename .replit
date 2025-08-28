@@ -22,23 +22,31 @@ mode = "sequential"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "npm install --force"
+args = "npm cache clean --force"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "cd web && npm install --force"
+args = "npm install"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "cd mobile && npm install --force"
+args = "npm install turbo@latest --save-dev"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "cd shared && npm install --force"
+args = "cd web && npm install"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "turbo dev"
+args = "cd mobile && npm install  "
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd shared && npm install"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "npx turbo dev"
 
 [[workflows.workflow]]
 name = "Test Firebase"

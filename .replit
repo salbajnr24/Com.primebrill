@@ -22,19 +22,40 @@ mode = "sequential"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "npm install"
+args = "npm install --force"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "cd web && npm install"
+args = "cd web && npm install --force"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "cd mobile && npm install"
+args = "cd mobile && npm install --force"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd shared && npm install --force"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
 args = "turbo dev"
+
+[[workflows.workflow]]
+name = "Test Firebase"
+author = 46945737
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd web && npm run dev &"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd mobile && npm start &"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "echo \"Development servers started. Check the web browser and mobile app for Firebase test results.\""
 
 [[ports]]
 localPort = 5000
